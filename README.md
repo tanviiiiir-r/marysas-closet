@@ -141,7 +141,7 @@ npx expo start
 
 ## 👤 Author
 
-**Tanvir Rana**  
+**Md Tanvir Rana**  
 🧠 [@tanviiiir_r](https://github.com/tanviiiir_r)  
 🧵 Built with ❤️ for Marysa
 
