@@ -49,7 +49,7 @@ A beautiful, lightweight personal wardrobe management app built with **React Nat
 
 | Closet Tab | Plan Week | Stats |
 |------------|-----------|-------|
-| ![Closet](./assets/images/closet.png) | ![Planner](./assets/images/planner.png) | ![Stats](./assets/images/stats.png) |
+| ![Closet](./assets/images/closet.PNG) | ![Planner](./assets/images/planner.PNG) | ![Stats](./assets/images/stats.PNG) |
 
 ---
 
