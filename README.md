@@ -1,50 +1,152 @@
-# Welcome to your Expo app 👋
+# 👗 Marysa’s Closet
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautiful, lightweight personal wardrobe management app built with **React Native + Expo**. Designed to help users manage their closet, track wears, plan outfits weekly, and stay organized — all from their phone.
 
-## Get started
+![App Preview](./assets/icon.png)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+### ✅ Closet Management
+- Add clothes with:
+  - 📸 Camera or 🖼️ Gallery
+  - Category, color, and tags
+  - Multiple image upload (max 3)
+- Mark items as 👕 Worn or ❌ Unmark
+- Delete clothes with long press
+- Zoom into images with pinch gestures
+- Preview images full-screen
+- Mark favorites ❤️ — favorites always appear on top
 
-   ```bash
-   npx expo start
-   ```
+### 🔍 Smart Filtering + Search
+- Search bar for **category + color + tags**
+  - e.g., "red dress", "blue shirt"
+- Dropdown for filtering by **wear count**
+- Clear ❌ filters button
+- Applied filters preview bar
 
-In the output, you'll find options to open the app in a
+### 🗓️ Weekly Outfit Planner
+- Interactive calendar view (📅)
+- Tap a date to assign multiple outfits
+- Planned dates show a dot 🔵 in calendar
+- Easily remove items from a day's plan
+- Persisted using AsyncStorage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📊 Stats Dashboard
+- Total items
+- Most worn 🔥
+- Least worn 🧼
+- Never worn ❄️
+- Visual previews of top 5 items per category
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🌟 AI Stylist (Coming Soon)
+- Placeholder screen with "Coming Soon" tag for future integration
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 📸 Screenshots
 
-```bash
-npm run reset-project
+| Closet Tab | Plan Week | Stats |
+|------------|-----------|-------|
+| ![Closet](./assets/images/closet.png) | ![Planner](./assets/images/planner.png) | ![Stats](./assets/images/stats.png) |
+
+---
+
+## 🛠️ Technologies Used
+
+- React Native + Expo
+- `expo-image-picker`
+- `react-native-reanimated` + `gesture-handler`
+- `@react-native-async-storage/async-storage`
+- `react-native-safe-area-context`
+- `react-native-calendars`
+- `react-native-picker-select`
+
+---
+
+## 📂 Project Structure
+
+```
+marysas-closet/
+│
+├── app/                   # Main app screens
+│   ├── (tabs)/            # Tab navigation pages
+│   ├── ai-stylist.js
+│   ├── add-clothes.js
+│   ├── closet.js
+│   ├── plan-week.js
+│   ├── stats.js
+│   ├── home.js
+│
+├── assets/                # Fonts, images, icons
+│
+├── components/            # Reusable components
+│
+├── constants/             # Theme & Colors
+│
+├── hooks/                 # Theme / Color Scheme
+│
+├── .gitignore
+├── package.json
+├── README.md
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📱 Installation & Run
 
-To learn more about developing your project with Expo, look at the following resources:
+### 1. Clone the repo
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/tanviiiiir-r/marysas-closet.git
+cd marysas-closet
+```
 
-## Join the community
+### 2. Install dependencies
 
-Join our community of developers creating universal apps.
+```bash
+npm install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 3. Start development server
+
+```bash
+npx expo start
+```
+
+> 📲 Scan the QR code using **Expo Go** app on your iOS/Android device.
+
+---
+
+## 📥 .gitignore
+
+```gitignore
+# dependencies
+/node_modules
+
+# builds
+/dist
+/build
+.expo
+.expo-shared
+
+# system files
+.DS_Store
+.env
+```
+
+---
+
+## 👤 Author
+
+**Tanvir Rana**  
+🧠 [@tanviiiir_r](https://github.com/tanviiiir_r)  
+🧵 Built with ❤️ for Marysa
+
+---
+
+## 📌 License
+
+This project is licensed under the MIT License. See `LICENSE.md` for more details.
