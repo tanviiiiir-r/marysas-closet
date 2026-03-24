@@ -1,6 +1,6 @@
 # marysas-closet
 
-{{PROJECT_ELEVATOR}}
+Brief overview of marysas-closet
 
 ## ✨ Features
 - Bullet point 1
@@ -8,8 +8,8 @@
 - Bullet point 3
 
 ## 🛠️ Tech Stack
-- Language / framework: **JavaScript**
-- Key libraries: list of libs
+- Language / framework: **Various**
+- Key libraries: See repository
 
 ## 🚀 Quick Start
 ```bash
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 npm install
 
 # Run
-npm run dev
+Refer to documentation
 ```
 
 ## 📸 Demo
