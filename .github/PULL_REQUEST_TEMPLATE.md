@@ -1,11 +1,21 @@
-## Overview
-Provide a brief description of the changes and why they are needed.
+---
+name: Pull request
+about: Provide a description of your changes
+---
 
-## Related Issue
-Closes # (or reference the issue number).
+**What does this PR do?**
+A short description of the changes.
 
-## Checklist
-- [ ] Tests added/updated
-- [ ] Documentation updated
-- [ ] Lint passes
-- [ ] All CI checks pass
+**Related issue**
+Closes # (or mentions #)
+
+**How was this tested?**
+- Unit tests
+- Integration tests
+- Manual testing steps
+
+**Checklist**
+- [ ] My code follows the project's style guidelines
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have updated the documentation accordingly
+- [ ] All new and existing tests pass
